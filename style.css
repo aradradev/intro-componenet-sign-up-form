@@ -64,18 +64,19 @@ form div{
     display: flex;
     flex-direction: column;
 }
-input, button{
+input, #button{
     padding: 17px 25px;
     margin-bottom: 18px;
     border: 1px solid #efefef;
     border-radius: 8px;
     font-weight: 600;
 }
-button{
+#button{
     text-transform: uppercase;
     color: #fff;
     background-color:  hsl(154, 59%, 51%);
     font-size: 1em;
+    cursor: pointer;
 }
 form p{
     font-size: 10px;
@@ -86,7 +87,7 @@ form p span{
     color: hsl(0, 100%, 74%);
 }
 input:focus,
-button:focus{
+#button:focus{
     outline: none;
 }
 
@@ -99,7 +100,7 @@ button:focus{
     background: url('images/icon-error.svg') no-repeat;
     background-position: 95% 50%;
 }
-.error-text{
+/* .error-text{
     font-size: 12px;
     font-style: italic;
     margin-left: auto;
@@ -109,7 +110,7 @@ button:focus{
 }
 .success{
     border: 2px solid hsl(154, 59%, 51%);
-}
+} */
 
 @media screen and (max-width: 750px) {
     main{

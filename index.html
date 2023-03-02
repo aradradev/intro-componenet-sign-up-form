@@ -30,22 +30,33 @@
       </div>
       <form action="#" id="form">
         <div >
-          <input type="text" placeholder="First Name" id="fName">
-          <span></span>
+          <label for="fName">
+            <input type="text" placeholder="First Name" id="fName" required>
+            <span></span>
+          </label>
         </div>
         <div >
-          <input type="text" placeholder="Last Name" id="lName">
-          <span></span>
+          <label for="lName">
+            <input type="text" placeholder="Last Name" id="lName" required>
+            <span></span>
+          </label>
         </div>
         <div >
-          <input type="email" placeholder="Email Address" id="email">
-          <span></span>
+          <label for="email">
+            <input type="email" placeholder="Email Address" id="email" required>
+            <span></span>
+          </label>
         </div>
         <div >
-          <input type="password" placeholder="Password" id="password">
+          <label for="password">
+            <input type="password" placeholder="Password" id="password" required>
+            <span></span>
+          </label>
         </div>
         <div>
-          <button onclick="submit()">Claim your free trial</button>
+          <label for="button">
+            <input type="button" value="Claim your free trial" id="button">
+          </label>
         </div>
         <p>By clicking the button, you are agreeing to our <span class="red">Terms and Services</span></p>
       </form>
